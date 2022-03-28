@@ -36,6 +36,7 @@ With you look in your vs Code you will see a Thunder Client installed you can im
     <img src="./docs/imgs/step1.png" alt="" />
 </p>
 2 - Press F5 to start, after enter at http://localhost:16543/login
+
 ```
     user - admin@luxclusif.com
     password - P@ssw0rd
@@ -45,6 +46,7 @@ With you look in your vs Code you will see a Thunder Client installed you can im
 </p>
 
 3 - Create new server
+
 ```
     host - luxclusif-aggregator-postgres
     user - postgres
