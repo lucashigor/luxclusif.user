@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  trainerhut.persons.webapi:
+  luxclusif.user.webapi:
     image: ${DOCKER_REGISTRY-}luxclusifuserwebapi
     build:
       context: .
@@ -41,7 +41,7 @@ services:
       - ./Local/drivers:/flyway/drivers
       - ./Local/database/conf:/flyway/conf
     depends_on:
-      - luxclusif-user-network
+      - luxclusif-user-postgres
     networks:
       - luxclusif-user-network
 
